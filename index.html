@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gallery[AYUSH]</title>
+<link rel="shortcut icon" href="favicon.png" >
+    <style>
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    height: 100vh;
+    overflow-x:hidden;
+    overflow-y: auto;;
+}
+
+.container{
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container h1{
+    text-align: center;
+    margin: 20px 0;
+    margin-bottom: 20px;
+    font-size: 3rem;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card{
+    width: 32%;
+    
+    position: relative;
+    
+    margin-bottom: 25px;
+    
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+
+.card img{
+    height: 100%;
+    width: 100%;
+    filter:invert(100%);
+    box-shadow: 0 0 20px #333;
+    object-fit: cover;
+}
+
+.card:hover{
+transform: scale(1.05);
+filter: drop-shadow(0 0 10px #333); 
+transition: 0.3s;
+
+}
+
+
+.card:hover img{
+    filter: invert(0%);
+}
+
+.card figcaption{
+position:absolute;
+bottom: 0;
+left: 0;
+padding: 25px;
+width: 100%;
+height: 20%;
+font-size: 16px;
+    font-weight: 500;
+    color:#fff;
+    opacity: 0;
+    border-radius: 0 0 10px 10px;
+background-image: linear-gradient(0deg,rgba(0,0,0,0.5) 0% rgba(255,255,255));
+transition: 0.3s;
+
+}
+
+
+.card:hover figcaption{
+opacity: 1;
+transform: scale(1.05);
+}
+
+
+
+
+    </style>
+
+
+</head>
+<body>
+    <div class="wrapper">
+
+<div class="container">
+
+<h1>My Gallery[AYUSH]</h1>
+<div class="gallery">
+    
+    
+    <figure class="card">
+        <img src="image1.jpg" alt="cannot show">
+        <figcaption>Image1</figcaption>
+    </figure>
+
+<figure class="card">
+    <img src="image2.jpeg" alt="cannot show">
+    <figcaption>Image2</figcaption>
+</figure>
+
+<figure class="card">
+    <img src="image3.jpeg" alt="cannot show">
+    <figcaption>Image3</figcaption>
+</figure>
+
+<figure class="card">
+    <img src="image4.jpeg" alt="cannot show">
+    <figcaption>Image4</figcaption>
+</figure>
+
+<figure class="card">
+    <img src="image5.jpeg" alt="cannot show">
+    <figcaption>Image5</figcaption>
+</figure>
+
+<figure class="card">
+    <img src="image6.jpeg" alt="cannot show">
+    <figcaption>Image6</figcaption>
+</figure>
+
+<figure class="card">
+    <img src="image7.jpeg" alt="cannot show">
+    <figcaption>Image7</figcaption>
+</figure>
+
+<figure class="card">
+    <img src="image8.jpeg" alt="cannot show">
+    <figcaption>Image8</figcaption>
+</figure>
+
+
+<figure class="card">
+    <img src="image9.jpeg" alt="cannot show">
+    <figcaption>Image9</figcaption>
+</figure>
+
+<figure class="card">
+    <img src="ayush.jpg" alt="cannot show">
+    <figcaption>Image10</figcaption>
+</figure>
+
+
+<figure class="card">
+    <img src="ayush_22.jpg" alt="cannot show">
+    <figcaption>Image11</figcaption>
+</figure>
+
+
+<figure class="card">
+    <img src="ayush_3.jpg" alt="cannot show">
+    <figcaption>Image12</figcaption>
+</figure>
+
+
+<figure class="card">
+    <img src="it1.jpg" alt="cannot show">
+    <figcaption>Image13</figcaption>
+</figure>
+
+
+<figure class="card">
+    <img src="it2.jpg" alt="cannot show">
+    <figcaption>Image14</figcaption>
+</figure>
+
+
+<figure class="card">
+    <img src="it3.jpg" alt="cannot show">
+    <figcaption>Image15</figcaption>
+</figure>
+
+
+<figure class="card">
+    <img src="it4.jpg" alt="cannot show">
+    <figcaption>Image16</figcaption>
+</figure>
+
+
+<figure class="card">
+    <img src="it5.jpg" alt="cannot show">
+    <figcaption>Image17</figcaption>
+</figure>
+
+
+<figure class="card">
+    <img src="it6.jpg" alt="cannot show">
+    <figcaption>Image18</figcaption>
+</figure>
+
+
+<figure class="card">
+    <img src="it7.jpg" alt="cannot show">
+    <figcaption>Image19</figcaption>
+</figure>
+
+
+<figure class="card">
+    <img src="it8.jpg" alt="cannot show">
+    <figcaption>Image20</figcaption>
+</figure>
+
+
+<figure class="card">
+    <img src="it9.jpg" alt="cannot show">
+    <figcaption>Image21</figcaption>
+</figure>
+
+
+<figure class="card">
+    <img src="it10.jpg" alt="cannot show">
+    <figcaption>Image22</figcaption>
+</figure>
+
+
+<figure class="card">
+    <img src="it11.jpg" alt="cannot show">
+    <figcaption>Image23</figcaption>
+</figure>
+
+
+<figure class="card">
+    <img src="it12.jpg" alt="cannot show">
+    <figcaption>Image24</figcaption>
+</figure>
+
+
+<figure class="card">
+    <img src="it13.jpg" alt="cannot show">
+    <figcaption>Image25</figcaption>
+</figure>
+
+
+<figure class="card">
+    <img src="it14.jpg" alt="cannot show">
+    <figcaption>Image26</figcaption>
+</figure>
+
+
+<figure class="card">
+    <img src="it15.jpg" alt="cannot show">
+    <figcaption>Image27</figcaption>
+</figure>
+
+
+<figure class="card">
+    <img src="it16.jpg" alt="cannot show">
+    <figcaption>Image28</figcaption>
+</figure>
+
+</div>
+
+</div>
+
+    </div>
+
+</body>
+</html>
